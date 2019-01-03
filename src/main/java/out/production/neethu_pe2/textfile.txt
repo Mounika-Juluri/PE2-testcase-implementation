@@ -1,0 +1,2 @@
+This is a textfile.Textfile can be read by java using scanner class or buffered reader and a file reader.A simple text scanner which can parse primitive types and strings using regular expressions.
+A Scanner breaks its input into tokens using a delimiter pattern, which by default matches whitespace. The resulting tokens may then be converted into values of different types using the various next methods.
