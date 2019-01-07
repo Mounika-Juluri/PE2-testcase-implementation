@@ -1,15 +1,15 @@
 public class MemberVariable {
     Member mem=new Member();
     public String memberName(String str){
-        mem.Name=str;
-        return mem.Name;
+        mem.setName(str);
+        return mem.getName();
     }
     public int memberAge(int ag){
-        mem.Age=ag;
-        return mem.Age;
+        mem.setAge(ag);
+        return mem.getAge();
     }
     public String memberSalary(String sal){
-        mem.Salary=sal;
-        return mem.Salary;
+        mem.setSal(sal);
+        return mem.getSal();
     }
 }
